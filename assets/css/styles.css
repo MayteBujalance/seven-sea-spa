@@ -1,0 +1,10 @@
+
+
+ /* Custom style for navbar text color */
+ .navbar-nav .nav-link {
+    color: #3b2f2f;
+  }
+  
+  .navbar-brand {
+    color: #3b2f2f;
+  }
