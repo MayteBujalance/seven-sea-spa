@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<!-- Nav Section -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -43,12 +43,117 @@
         </div>
     </nav>
 <!-- Hero section -->
-    <div class="container-fluid hero-section text-center">
+ <header class="hero-section text-center">
+    <div class="container-fluid">
         <h1 class="display-4">Welcome to Seven Seas Spa</h1>
         <p class="lead">We are dedicated to improving your overall wellbeing.</p>
         <a href="#" class="btn btn-light btn-lg">Contact Us</a>
     </div>
+</header>
 
+    <!-- Main Section -->
+     <main class=" container my-5">
+        <div class="container">
+    <!-- Services section -->
+    <section class="my-5">
+        <h2 class="Display-5">Our Services</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/images/yoga.png" class="card-img-top" alt="Yoga class session with a serene background">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga Classes</h5>
+                        <p class="card-text">Enhance your flexibility and inner peace with our expert-led yoga sessions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/images/nutrition.png" class="card-img-top" alt="A variety of fresh and healthy food items representing nutritional advice">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutritional Advice</h5>
+                        <p class="card-text">Receive personalized nutritional guidance to achieve a healthier lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/images/mental_health.png" class="card-img-top" alt="A peaceful person in a nature scene symbolizing mental health support and tranquility">
+                    <div class="card-body">
+                        <h5 class="card-title">Mental Health Support</h5>
+                        <p class="card-text">Our mental health support services provide a safe space to discuss your concerns and promote emotional wellbeing through expert guidance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/images/wellness.png" class="card-img-top" alt="A serene setting with people meditation representing relaxation and wellness">
+                    <div class="card-body">
+                        <h5 class="card-title">Wellness Programme</h5>
+                        <p class="card-text">Experience rejuvenation with our tailored wellness programmes, designed to harmonize your body, mind, and spirit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Wellness Section -->
+<section class="my-5">
+    <h2 class="Display-5">Wellness Tips</h2>
+    <p>Discover the key elements of our wellness program, designed to help you achieve balance and harmony in your life.</p>
+    <ul>
+        <li><strong>Relaxation Therapy:</strong> Unwind with our expert-led relaxation techniques to reduce stress.</li>
+        <li><strong>Mindfulness Sessions:</strong> Learn to stay present and focused through guided mindfulness practices.</li>
+        <li><strong>Detox Plans:</strong> Cleanse your body with our personalized detox programs.</li>
+        <li><strong>Fitness Guidance:</strong> Achieve your fitness goals with tailored exercise plans.</li>
+        <li><strong>Holistic Healing:</strong> Experience rejuvenation with our holistic healing therapies.</li>
+    </ul>
+</section>
+
+<!-- Testimonial Section -->
+<section class="my-5">
+    <h2 class="Display-5 text-center">Testimonials</h2>
+    <p class="text-center">Hear from our satisfied clients about their experiences at Seven Seas Spa.</p>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card h-100 text-center mx-auto" style="max-width: 600px;">
+                    <div class="card-body">
+                        <p class="card-text">"The yoga classes have transformed my life. I feel more flexible and at peace than ever before!"</p>
+                        <h5 class="card-title">- Sarah L.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card h-100 text-center mx-auto" style="max-width: 600px;">
+                    <div class="card-body">
+                        <p class="card-text">"The wellness program helped me achieve a perfect balance between my mind and body."</p>
+                        <h5 class="card-title">- John D.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card h-100 text-center mx-auto" style="max-width: 600px;">
+                    <div class="card-body">
+                        <p class="card-text">"The relaxation therapy sessions are a must-try. I’ve never felt so rejuvenated!"</p>
+                        <h5 class="card-title">- Emily R.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+</div>
+</main>
     <!-- Bootstrap JS Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

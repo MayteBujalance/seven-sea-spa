@@ -1,3 +1,12 @@
+/* Apply consistent styles to h1, h2, and h5 */
+h2, h5 {
+    font-family: 'Handlee', cursive; /* Use the Handlee font */
+    color: #2c3e50; /* Set a dark blue color */
+    margin-bottom: 20px; /* Add spacing below the headings */
+    font-weight: bold; /* Make the text bold */
+    text-align: center;
+    
+}
 
 .navbar-custom {
     color: #3B2F2F;
@@ -25,3 +34,15 @@
 .btn {
     color: #3B2F2F;
 }
+
+/* Services section */
+.card {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Right bottom shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
