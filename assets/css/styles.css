@@ -7,7 +7,7 @@ h2, h5 {
     text-align: center;
     
 }
-
+/* Navbar */
 .navbar-custom {
     color: #3B2F2F;
 }
@@ -20,19 +20,38 @@ h2, h5 {
     font-weight: bold;
 }
 
+.navbar {
+    position: sticky;
+    top: 0; /* Make the navbar sticky */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Hero Section Heading */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center; /* Background image with gradient overlay */
     background-size: cover;
+    background-attachment: fixed; /* Fix the background image */
     color: #FFEBD4;
-    padding: 100px 0;
+    padding: 8rem 0;
 }
 
 .hero-section h1 {
     font-family: 'Handlee', cursive;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes full height */
+}
+
 .btn {
     color: #3B2F2F;
+}
+/* Main section */
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Services section */
@@ -45,4 +64,13 @@ h2, h5 {
     transform: translateY(-5px); /* Slight lift on hover */
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
+  /* Style the footer */
+  .footer {
+    margin-top: auto;
+    background-color: #6F4E37;
+    color: #FFEBD4;
+}
 
+.footer i.bi {
+    color: #FFEBD4;
+}
