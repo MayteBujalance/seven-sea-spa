@@ -30,7 +30,7 @@ h2, h5 {
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center; /* Background image with gradient overlay */
     background-size: cover;
-    background-attachment: fixed; /* Fix the background image */
+    background-attachment: fixed; /* Fix the background image the background, it remains fixed as the user scrolls.*/
     color: #FFEBD4;
     padding: 8rem 0;
 }
