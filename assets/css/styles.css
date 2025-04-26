@@ -74,3 +74,15 @@ main {
 .footer i.bi {
     color: #FFEBD4;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px; /* positions the element outside the visible area */
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0); /* positions the element putside teh visible area */
+    white-space: nowrap;
+    border: 0;
+}
