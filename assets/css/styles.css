@@ -44,9 +44,18 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Ensure the body takes full height */
 }
+/* customise btn */
 
-.btn {
-    color: #3B2F2F;
+
+.btn-custom {
+    background-color: #6F4E37; /* Brown background */
+    color: #FFEBD4; /* Light text */
+    border: none; /* Remove border */
+}
+
+.btn-custom:hover {
+    background-color: #5A3E2C; /* Darker brown on hover */
+    color: #FFFFFF; /* White text on hover */
 }
 /* Main section */
 main {
